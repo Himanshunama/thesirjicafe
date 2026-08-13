@@ -68,7 +68,7 @@ def check_admin_auth():
         return False
 
     return (
-        auth.username == "admin"
+        auth.username == "Himanshu"
         and auth.password == ADMIN_PASSWORD
     )
 
